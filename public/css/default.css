@@ -15,14 +15,13 @@
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 body, html { font-size: 100%; padding: 0; margin: 0;}
 
-/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
 .clearfix:before, .clearfix:after { content: " "; display: table; }
 .clearfix:after { clear: both; }
 
 body {
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	color: #ffe8e7;
-	background: #E96D65;
+	background: #030303;
 	font-weight: 300;
 	overflow-x: hidden;
 }
@@ -50,10 +49,10 @@ a:active {
 }
 
 .container > header h1 {
-	font-size: 2.625em;
+	font-size: 6em;
 	line-height: 1.3;
 	margin: 0;
-	font-weight: 300;
+	font-weight: 500;
 }
 
 .container > header span {
@@ -65,7 +64,7 @@ a:active {
 
 /* Main Content */
 .main {
-	max-width: 50em;
+	max-width: 90em;
 }
 
 /* To Navigation Style */

@@ -18,37 +18,46 @@
 			<!-- Top Navigation -->
 
 			<header>
-				<h1>Natural Language Form <span>with custom input elements</span></h1>	
+				<h1>Request A Free Trial! <span>with custom input elements</span></h1>	
 			</header>
 			<div class="main clearfix">
 				<form id="nl-form" class="nl-form">
-					I feel to eat 
+					My name is <input type="text" class="nl-input" name="name" placeholder="name" data-subline="your <em>name</em>"/>.
+					<br />
+					I am a
 					<select>
-						<option value="1" selected>any food</option>
-						<option value="2">Indian</option>
-						<option value="3">French</option>
-						<option value="4">Japanese</option>
-						<option value="2">Italian</option>
+						<option value="1" selected>U/X Researcher</option>
+						<option value="2">Product Manager</option>
+						<option value="3">Brand Manager</option>
+						<option value="4">CX Professional</option>
+						<option value="5">Product Marketer</option>
+						<option value="6">Research Professional</option>
 					</select>
-					<br />in a
+					located in <input type="text" class="nl-input" name="location" placeholder="location" data-subline="For example: <em>Toronto</em> or <em>Canada</em>"/> and I am 
 					<select>
-						<option value="1" selected>standard</option>
-						<option value="2">fancy</option>
-						<option value="3">hip</option>
-						<option value="4">traditional</option>
-						<option value="2">romantic</option>
+						<option value="1" selected>super</option>
+						<option value="2">pretty</option>
+						<option value="3">a little</option>
+						<option value="4">not</option>
 					</select>
-					restaurant
-					<br />at 
+					excited to 
 					<select>
-						<option value="1" selected>anytime</option>
-					 	<option value="1">7 p.m.</option>
-					 	<option value="2">8 p.m.</option>
-					 	<option value="3">9 p.m.</option>
+						<option value="1" selected>give it a spin</option>
+					 	<option value="1">learn</option>
+					 	<option value="2">know my options</option>
+					 	<option value="3">discuss</option>
 					</select>
-					in <input type="text" value="" placeholder="any city" data-subline="For example: <em>Los Angeles</em> or <em>New York</em>"/>
+					. Please send my access pass to
+					<select>
+						<option value="1" selected>my email</option>
+					 	<option value="1">my telephone</option>
+					 	<option value="2">Slack</option>
+					 	<option value="3">Skype</option>
+					</select> (<input type="text" class="nl-input" name="detail" placeholder="contact info" data-subline="your <em>contact info</em>"/>). 
+					<br />
+					Thanks, <input type="text" class="nl-input" name="name" placeholder="name" data-subline="your <em>name</em>"/>
 					<div class="nl-submit-wrap">
-						<button class="nl-submit" type="submit">Find a restaurant</button>
+						<button class="nl-submit" type="submit">Send Trial Request</button>
 					</div>
 					<div class="nl-overlay"></div>
 				</form>
