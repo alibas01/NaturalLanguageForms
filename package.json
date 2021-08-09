@@ -14,7 +14,7 @@
     "start": "./node_modules/.bin/nodemon -L server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ali Bas",
   "license": "ISC",
   "description": ""
 }
