@@ -23,5 +23,5 @@ app.get("/", (req, res) => {
 
 // server listen on port 8080
 app.listen(PORT, () => {
-  console.log(`NaturalLanguageForms listening on port ${PORT}!`);
+  console.log(`NaturalLanguageForms listening on port ${PORT}! 😎 `);
 });
